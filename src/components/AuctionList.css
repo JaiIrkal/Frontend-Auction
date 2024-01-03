@@ -1,0 +1,25 @@
+.list-container{
+    position: relative;
+    /* left: 200px; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 900px;
+    align-self: center;
+    left: 380px;
+}
+
+.item-div{
+    border: 2px black solid;
+    height: 130px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-around;
+}
